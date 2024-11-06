@@ -12,6 +12,9 @@
   "dependencies": {
     "@mantine/core": "7.13.4",
     "@mantine/hooks": "7.13.4",
+    "@tabler/icons": "^3.21.0",
+    "@tabler/icons-react": "^3.21.0",
+    "@twa-dev/sdk": "^7.10.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -20,6 +23,7 @@
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
