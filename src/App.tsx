@@ -8,7 +8,7 @@ import HeaderMenu from "./HeaderMenu";
 export default function App() {
   const [opened, { toggle }] = useDisclosure();
   const user = WebApp.initDataUnsafe.user;
-  const usertgid = user?.id;
+  
   return (
     <MantineProvider theme={theme}>
       <AppShell
