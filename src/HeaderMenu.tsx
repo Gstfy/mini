@@ -13,11 +13,11 @@ function HeaderMenu({ username, photoUrl }: { username: string; photoUrl: string
           src={photoUrl}
           alt={username}
         />
-        <UnstyledButton mr={'xs'} ml={'xs'} style={{ textAlign: 'center', color: 'white' }}>
+        <UnstyledButton mr={'xs'} ml={'xs'} style={{ textAlign: 'center', color: 'yellow' }}>
           {username}
           <IconAt style={{ width: rem(24), height: rem(24) }} />
         </UnstyledButton>
-        <UnstyledButton mr={'xs'} ml={'xs'} style={{ textAlign: 'center', color: 'white' }}>
+        <UnstyledButton mr={'xs'} ml={'xs'} style={{ textAlign: 'center', color: 'yellow' }}>
           <IconUserShare style={{ width: rem(24), height: rem(24) }} />
         </UnstyledButton>
       </Flex>
